@@ -1,0 +1,59 @@
+body {
+    background-color: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+.postcard {
+    background: white;
+    width: 400px;
+    padding: 20px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+    display: flex;
+    justify-content: space-between;
+}
+
+.text {
+    width: 60%;
+}
+
+.inputs {
+    width: 35%;
+}
+
+h2 {
+    margin: 0;
+}
+
+p {
+    font-size: 14px;
+}
+
+input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid gray;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    background: gray;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.logo {
+    text-align: right;
+    margin-bottom: 5px;
+}
+
+.logo img {
+    width: 30px;
+}
